@@ -1,0 +1,204 @@
+@media (max-width: 1199px) {
+  /* Zero header section */
+  .zero_header {
+    padding: 0.6em 0;
+  }
+  .zeroheader_div_item {
+    justify-content: space-evenly;
+    gap: 0.3em;
+  }
+  .zeroheader_div1 {
+    gap: 1.9em;
+    margin-bottom: 1em;
+  }
+  .zeroheader_div2 {
+    justify-content: space-between;
+  }
+  /* Zero header section */
+
+  /* navbar section */
+  .navbar_menu {
+    padding: 2em 0;
+    flex-direction: column;
+  }
+  /* navbar section */
+  /* home section */
+  .home_div2 {
+    margin: 2em 0;
+  }
+  /* home section */
+  /* Appointment  section */
+  .Appointment_card {
+    width: 23em;
+    height: 23em;
+  }
+  .card_3 {
+    padding: 2em;
+    margin-top: 2em;
+  }
+  /* Appointment  section */
+  /* Step1 section */
+  .step1_img {
+    object-fit: cover;
+    height: 18em;
+    width: 18em;
+    border-radius: 100%;
+  }
+  /* Step1 section */
+  /* Step2 section */
+  .step2_row {
+    padding: 1em 0;
+  }
+  .step2_img {
+    object-fit: cover;
+    height: 18em;
+    width: 18em;
+    border-radius: 100%;
+  }
+  /* Step2 section */
+  /* Images Cards section */
+
+  .Images_icon {
+    right: 6em;
+  }
+  .service_div1 {
+    margin: 2em 0;
+  }
+
+  /* Images Cards section */
+    /* Small cards section */
+
+    .small_card {
+      margin-top: 1em;
+    }
+  
+    /* Small cards section */
+}
+@media (max-width: 767px) {
+  /* Zero header section */
+  .zeroheader_div_item p {
+    display: none;
+  }
+  .zeroheader_div_item {
+    justify-content: space-between;
+  }
+  .zeroheader_div1 {
+    justify-content: space-between;
+  }
+
+  /* Zero header section */
+  /* home section */
+  .home_slider_img {
+    height: 18em;
+  }
+
+  .home_div2_nav {
+    margin: 0em -0.6em;
+  }
+
+  .home_div2_a :hover {
+    text-decoration: none;
+  }
+  .home_div2_ul {
+    justify-content: space-between;
+  }
+  .home_btn_group {
+    margin: 0em 0;
+    margin-top: 2em;
+  }
+  .home_btn {
+    border-radius: 1em;
+  }
+  /* home section */
+  /* Appointment  section */
+  .Appointment_card {
+    width: 24em;
+    height: 23em;
+  }
+  .Appointment_container {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin: 2em 0;
+    padding: 1em;
+  }
+  /* Appointment  section */
+  /* card section */
+  .card_section {
+    margin: 1em 0;
+    margin-bottom: 3em;
+  }
+
+  .card_div {
+    padding: 2em;
+    margin-top: 2em;
+  }
+
+  /* card section */
+  /* services section */
+  .services_section {
+    padding: 3em 0;
+  }
+
+  .service_div {
+    padding: 1em;
+  }
+
+  /* services section */
+  /* Step1 section */
+
+  .step1_img {
+    height: 18em;
+    width: 18em;
+  }
+  .step1_div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    text-align: center;
+  }
+  /* Step1 section */
+  /* Step2 section */
+
+  .step2_div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+  }
+
+  .step2_div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+  /* Step2 section */
+  /* Images Cards section */
+  .Images_cards {
+    text-align: center;
+    padding: 2em;
+    padding-top: 3em;
+    background-color: hsl(0deg 4.76% 95.88%);
+  }
+  .Images_icon {
+    right: 7em;
+  }
+  .service_div1 {
+    margin: 2em 0;
+  }
+  .services_mobile_div {
+    margin-top: 2em;
+  }
+  /* Images Cards section */
+  /* Small cards section */
+
+  .small_card {
+    margin-top: 1em;
+  }
+
+  /* Small cards section */
+}

@@ -12,38 +12,877 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <!-- zero header -->
-    <section>
+    <section class="zero_header">
       <div class="container">
         <div class="row">
-          <div class="col-lg-7">
-            <div>
-              <i class="fa-regular fa-clock"></i>
+          <div class="col-lg-7 col-md-12 zeroheader_div1">
+            <div class="zeroheader_div_item">
+              <i
+                class="fa-regular fa-clock zeroheader_div_icon"
+                style="color: hsl(235.91deg 59.46% 14.51%)"
+              ></i>
               <p>Mon-Fri 09-18:00</p>
             </div>
-            <div>
-              <i class="fa-solid fa-phone-volume"></i>
+            <div class="zeroheader_div_item">
+              <i
+                class="fa-solid fa-phone-volume zeroheader_div_icon"
+                style="color: hsl(235.91deg 59.46% 14.51%)"
+              ></i>
+
               <p>Call Us: +91 790-9774-918</p>
             </div>
-            <div>
-              <i class="fa-solid fa-paper-plane"></i>
+            <div class="zeroheader_div_item">
+              <i
+                class="fa-solid fa-paper-plane zeroheader_div_icon"
+                style="color: hsl(235.91deg 59.46% 14.51%)"
+              ></i>
               <p>Mail Us: example@gmail.com</p>
             </div>
           </div>
-          <div class="col-lg-5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
-            aliquam iure perferendis? Dicta nostrum totam adipisci debitis
-            inventore quo facere quae, eos blanditiis quis similique atque
-            aliquam, vitae reprehenderit quaerat!
+          <div class="col-lg-5 col-md-12 zeroheader_div2">
+            <div class="zeroheader_div2_item">
+              <i
+                class="fa-brands fa-facebook-f zeroheader_div_icon"
+                style="color: hsl(235.91deg 59.46% 14.51%)"
+              ></i>
+              <i
+                class="fa-brands fa-twitter zeroheader_div_icon"
+                style="color: hsl(207.06deg 100% 50%)"
+              ></i>
+              <i
+                class="fa-solid fa-p zeroheader_div_icon"
+                style="color: hsl(351.38deg 100% 61.76%)"
+              ></i>
+              <i
+                class="fa-brands fa-instagram zeroheader_div_icon"
+                style="color: hsl(351.38deg 100% 61.76%)"
+              ></i>
+            </div>
+
+            <div class="d-grid gap-2 d-md-block">
+              <button class="btn zeroheader_btn1" type="button">Sign in</button>
+              <button class="btn zeroheader_btn2" type="button">Sign Up</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- zero header -->
+    <!-- Navbar section -->
+    <section class="container">
+      <nav class="navbar sticky-top navbar-expand-xl navbar-light navbar_nav">
+        <img src="images\alpha.jpg" class="nav_logo" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse navbar_menu"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Home
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Page
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button
+              class="btn btn-primary my-2 my-sm-0"
+              type="submit"
+              style="border-radius: 0.6em"
+            >
+              Get A Quote
+            </button>
+          </form>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar section -->
+
+    <!-- home section -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 pl-0 pr-0">
+            <div class="owl-slider">
+              <div id="carousel" class="owl-carousel">
+                <div class="item">
+                  <img src="images\2.jpg" class="home_slider_img" />
+                </div>
+                <div class="item">
+                  <img src="images\2.jpg" class="home_slider_img" />
+                </div>
+                <div class="item">
+                  <img src="images\2.jpg" class="home_slider_img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 home_div2">
+            <div>
+              <h2>
+                After installing Animate.css, add the to an element, After
+                installing Animate.css, add the to an element, add the to an
+              </h2>
+              <p class="home_p">
+                After installing Animate.css, add the to an element, After
+                installing Animate.css, add the to an element, add the to an
+              </p>
+            </div>
+            <nav class="navbar navbar-expand-sm navbar-dark home_div2_nav">
+              <!-- Links -->
+              <ul class="navbar-nav home_div2_ul">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-toggle home_div2_a"
+                    href="#"
+                    id="navbardrop"
+                    data-toggle="dropdown"
+                  >
+                    Specialist
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"> 1</a>
+                    <a class="dropdown-item" href="#"> 2</a>
+                    <a class="dropdown-item" href="#"> 3</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-toggle home_div2_a"
+                    href="#"
+                    id="navbardrop"
+                    data-toggle="dropdown"
+                  >
+                    Category
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"> 1</a>
+                    <a class="dropdown-item" href="#"> 2</a>
+                    <a class="dropdown-item" href="#"> 3</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="dropdown-toggle home_div2_a"
+                    href="#"
+                    id="navbardrop"
+                    data-toggle="dropdown"
+                  >
+                    Condition
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"> 1</a>
+                    <a class="dropdown-item" href="#"> 2</a>
+                    <a class="dropdown-item" href="#"> 3</a>
+                  </div>
+                </li>
+                <li class="item">
+                  <button
+                    class="btn text-white"
+                    style="background-color: #000"
+                    type="submit"
+                  >
+                    Search <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="d-grid gap-2 d-md-block home_btn_group">
+              <button class="btn btn-primary home_btn" type="button">
+                Services
+              </button>
+              <button
+                class="btn text-white home_btn"
+                type="button"
+                style="background-color: #000"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="card Appointment_card">
+              <img
+                src="images\6.jpg"
+                class="card-img-top p-3"
+                alt="bg-missing"
+              />
+              <div class="card-body text-center text-white">
+                <p class="card-text mb-0">Emergency Blood test in</p>
+                <p class="card-text mb-0">30 minut</p>
+                <p class="card-text">Contact Us: +91 790-9774-918</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-12 Appointment_container">
+            <div class="col-lg-12 Appointment_div1">
+              <i class="fa-regular fa-calendar-days"></i>
+              <h2>make an Appointment</h2>
+            </div>
+
+            <div class="col-lg-12 Appointment_inputs">
+              <input
+                type="text"
+                name=""
+                id="input"
+                class="col-lg-6 form-control"
+                value=""
+                required="required"
+                placeholder="Enter Your Name"
+                pattern=""
+                title=""
+              />
+              <input
+                type="email"
+                placeholder="Enter Email"
+                name=""
+                id="input"
+                class="col-lg-6 form-control"
+                value=""
+                required="required"
+                pattern=""
+                title=""
+              />
+            </div>
+
+            <div class="col-lg-12 Appointment_inputs">
+              <select id="input" class="col-lg-6 form-control">
+                <option value="default">Select Doctor</option>
+                <option value="">1st</option>
+                <option value="">2nd</option>
+                <option value="">1st</option>
+              </select>
+
+              <select id="input" class="col-lg-6 form-control">
+                <option value="default">Select Department</option>
+                <option value="">1st</option>
+                <option value="">2nd</option>
+                <option value="">1st</option>
+              </select>
+            </div>
+
+            <div class="col-lg-12 Appointment_btn">
+              <button type="button" class="btn btn-primary">
+                Submit Applications
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section -->
+    <!-- card section -->
+    <section class="card_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card_div">
+              <i class="fa-solid fa-thumbs-up Card_icon"></i>
+              <h4>After installing Animate</h4>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card_div">
+              <i class="fa-regular fa-clipboard Card_icon"></i>
+              <h4>After installing Animate</h4>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mx-auto">
+            <div class="card_div card_3">
+              <i class="fa-solid fa-building Card_icon"></i>
+              <h4>After installing Animate</h4>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card section -->
+
+    <!-- services section -->
+    <section class="services_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <span class="service_zero_heading">Our Services</span>
+            <h2>After installing Animate</h2>
+            <p class="mb-0">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css After
+            </p>
+            <p>
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service_div">
+              <i class="fa-regular fa-clipboard services_icon"></i>
+              <h5>After installing Animate</h5>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service_div">
+              <i class="fa-regular fa-clipboard services_icon"></i>
+              <h5>After installing Animate</h5>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service_div">
+              <i class="fa-regular fa-clipboard services_icon"></i>
+              <h5>After installing Animate</h5>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service_div">
+              <i class="fa-regular fa-clipboard services_icon"></i>
+              <h5>After installing Animate</h5>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service_div">
+              <i class="fa-regular fa-clipboard services_icon"></i>
+              <h5>After installing Animate</h5>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service_div">
+              <i class="fa-regular fa-clipboard services_icon"></i>
+              <h5>After installing Animate</h5>
+              <p class="card_p">
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css
+              </p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+
+    <!-- step1 section -->
+    <section class="step1_section">
+      <div class="conatiner">
+        <div class="row" style="margin: 3em 0">
+          <div class="col-lg-5 col-md-5 step1_div1">
+            <img src="images\3.jpg" class="step1_img" alt="" />
+          </div>
+          <div class="col-lg-7 col-md-7 step1_div2">
+            <span class="step1_heading">Step 1</span>
+            <h2>
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.
+            </h2>
+            <p style="color: hsl(199, 7%, 56%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </p>
+            <h6 style="color: hsl(199, 7%, 56%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </h6>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="border-radius: 1.2em"
+              >
+                Make Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- step1 section -->
+
+    <!-- step2 section -->
+    <section class="step2_section">
+      <div class="container">
+        <div class="row step2_row">
+          <div class="col-lg-7 col-md-7 step2_div1">
+            <span class="step2_heading">Step 2</span>
+            <h2 class="text-white">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.
+            </h2>
+            <p style="color: hsl(0, 0%, 83%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </p>
+            <h6 style="color: hsl(0, 0%, 83%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </h6>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="border-radius: 1.2em"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 step2_div2">
+            <img src="images\5.jpg" class="step2_img" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- step2 section -->
+    <!-- step3 section -->
+    <section class="step1_section">
+      <div class="conatiner">
+        <div class="row" style="margin: 3em 0">
+          <div class="col-lg-5 col-md-5 step1_div1">
+            <img src="images\11.jpg" class="step1_img" alt="" />
+          </div>
+          <div class="col-lg-7 col-md-7 step1_div2">
+            <span class="step1_heading">Step 3</span>
+            <h2>
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.
+            </h2>
+            <p style="color: hsl(199, 7%, 56%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </p>
+            <h6 style="color: hsl(199, 7%, 56%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </h6>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="border-radius: 1.2em"
+              >
+                Make Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- step3 section -->
+    <!-- step4 section -->
+    <section>
+      <div class="container">
+        <div class="row step2_row">
+          <div class="col-lg-7 col-md-7 step1_div2">
+            <span class="step1_heading">Step 4</span>
+            <h2>
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.
+            </h2>
+            <p style="color: hsl(199, 7%, 56%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </p>
+            <h6 style="color: hsl(199, 7%, 56%)">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css, After installing Animate.css
+            </h6>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="border-radius: 1.2em"
+              >
+                Make Appointment
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 step2_div2">
+            <img src="images\3.jpg" class="step4_img" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- step4 section -->
+
+    <!-- Images Card section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center service_div1">
+            <span class="service_zero_heading">Testimonals</span>
+            <h2>After installing Animate</h2>
+            <p class="mb-0">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css After
+            </p>
+            <p>
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="Images_cards">
+              <i class="fa-solid fa-quote-left Images_icon"></i>
+              <p>
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css After
+              </p>
+              <img
+                src="images\1.jpg"
+                style="object-fit: contain; width: 10em"
+                alt=""
+              />
+              <h4>Alison Jack</h4>
+              <p>Developer</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 services_mobile_div">
+            <div class="Images_cards">
+              <i class="fa-solid fa-quote-left Images_icon"></i>
+              <p>
+                After installing Animate.css, After installing Animate.css,
+                After installing Animate.css After
+              </p>
+              <img
+                src="images\1.jpg"
+                style="object-fit: contain; width: 10em"
+                alt=""
+              />
+              <h4>Alison Jack</h4>
+              <p>Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Images Card section -->
+
+    <!-- small cards section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center service_div1">
+            <span class="service_zero_heading">Testimonals</span>
+            <h2>After installing Animate</h2>
+            <p class="mb-0">
+              After installing Animate.css, After installing Animate.css, After
+              installing Animate.css After
+            </p>
+            <p>
+              installing Animate.css, After installing Animate.css, After
+              installing Animate.css
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <div class="small_card">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <p>Medical</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- small cards section -->
+
+    <!-- Date Card section -->
+    <section>
+      <div class="container">
+        <div class="col-lg-12 text-center service_div1">
+          <span class="service_zero_heading">Testimonals</span>
+          <h2>After installing Animate</h2>
+          <p class="mb-0">
+            After installing Animate.css, After installing Animate.css, After
+            installing Animate.css After
+          </p>
+          <p>
+            installing Animate.css, After installing Animate.css, After
+            installing Animate.css
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="Date_card_img1">
+              <p>20 Aprail 2020</p>
+              <p>After installing Animate.css, After installing Animate.css</p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Date_card_img2">
+              <p>20 Aprail 2020</p>
+              <p>After installing Animate.css, After installing Animate.css</p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Date_card_img3">
+              <div style="position: absolute; color: white;">
+              <p>20 Aprail 2020</p>
+              <p>After installing Animate.css, After installing Animate.css</p>
+              <span class="service_readmore"
+                >Read More <i class="fa-solid fa-caret-down"></i
+              ></span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Date Card section -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      jQuery("#carousel").owlCarousel({
+        autoplay: true,
+        rewind: true /* use rewind if you don't want loop */,
+        margin: 20,
+        /*
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  */
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+
+          600: {
+            items: 1,
+          },
+
+          1024: {
+            items: 1,
+          },
+
+          1366: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
