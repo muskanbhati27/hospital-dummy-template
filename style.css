@@ -72,6 +72,10 @@ i {
 /* Zero header section */
 
 /* navbar section */
+.navbar_section {
+  position: absolute;
+  width: 100%;
+}
 .nav_logo {
   object-fit: cover;
   width: 10em;
@@ -99,18 +103,20 @@ i {
 .owl-dots {
   text-align: center;
   padding-top: 15px;
+  position: relative;
+  bottom: 4em;
 }
 .owl-dots button.owl-dot {
-  width: 35px;
-  height: 5px;
+  width: 30px;
+  height: 4px;
   border-radius: 10%;
   display: inline-block;
   background: transparent;
   margin: 0 3px;
+  background-color: rgb(212, 211, 211);
 }
 .owl-dots button.owl-dot.active {
-  /* background-color: #fff; */
-  background-color: #000;
+  background-color: #fff;
 }
 .owl-dots button.owl-dot:focus {
   outline: none;
@@ -126,20 +132,27 @@ i {
   outline: none;
 }
 .owl-carousel .owl-nav button.owl-next {
+  color: rgb(212, 211, 211);
   font-size: 3em;
 }
 .owl-carousel .owl-nav button.owl-prev {
+  color: rgb(212, 211, 211);
   font-size: 3em;
 }
+
 .home_slider_img {
   object-fit: cover;
   width: 50em;
-  height: 28em;
+  height: 30em;
+  position: relative;
 }
+
 .home_div2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 7.2em;
+  margin-top: 4em;
 }
 .home_p {
   color: hsl(196, 11%, 65%);
@@ -166,17 +179,24 @@ i {
 }
 .home_btn_group {
   margin: 2em 0;
+  margin-bottom: 3em;
 }
 .home_btn {
   border-radius: 1.4em;
 }
-
+.home_div1 {
+  /* border: 2px solid red; */
+}
 /* home section */
 /* Appointment  section */
 .Appointment_card {
   background-color: #000;
-  width: 27em;
-  height: 25em;
+  width: 26em;
+  height: 24em;
+  padding: 2em;
+  position: relative;
+  bottom: 59px;
+  z-index: 9;
 }
 .Appointment_div1 {
   display: flex;
@@ -184,6 +204,7 @@ i {
   justify-content: start;
   align-items: center;
   gap: 0.6em;
+  padding-top: 2em;
 }
 .Appointment_inputs {
   display: flex;
@@ -197,8 +218,11 @@ i {
 }
 .Appointment_container {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  margin: 2em 0;
   padding: 2em;
+  position: relative;
+  bottom: 59px;
+  background: #fff;
+  z-index: 9;
 }
 .Appointment_btn {
   display: flex;
@@ -217,7 +241,7 @@ i {
   margin-bottom: 8em;
 }
 .card_div {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 12px rgb(0 0 0);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -345,6 +369,64 @@ i {
   width: 21em;
 }
 /* Step2 section */
+/* Step3 section */
+.step3_heading {
+  font-weight: 550;
+  color: #007bff;
+  font-size: 1.2em;
+}
+.step3_div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.step3_img {
+  object-fit: cover;
+  height: 21em;
+  width: 21em;
+  border-radius: 100%;
+}
+.step3_div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Step3 section */
+/* Step4 section */
+.step4_section {
+  background-color: hsl(235.91deg 59.46% 14.51%);
+}
+.step4_row {
+  padding: 3em 0;
+}
+.step4_div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.step4_heading {
+  color: #007bff;
+  font-size: 1.2em;
+  font-weight: 550;
+}
+.step4_div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.step4_img {
+  object-fit: cover;
+  height: 21em;
+  width: 21em;
+  border-radius: 100%;
+}
+.step4_img {
+  object-fit: cover;
+  height: 21em;
+  width: 21em;
+}
+/* Step2 section */
 /* Images Cards section */
 .Images_cards {
   text-align: center;
@@ -383,12 +465,23 @@ i {
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.15);
   padding: 2em 0;
 }
-.small_card_container {
-  width: 13em;
+.heart_div {
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.15);
+  width: 19%;
 }
+.Heart_container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.7em;
+}
+
 /* Small cards section */
 /* Date crad section */
-
+.date_section {
+  padding: 2em 0;
+}
 .Date_card_img1 {
   background: url("images/1 (1).jpg");
   background-size: contain;
@@ -399,7 +492,7 @@ i {
 }
 .Date_card_img1:before {
   position: absolute;
-  background: #0000008c;
+  background: linear-gradient(0deg, black, transparent);
   width: 100%;
   height: 100%;
   top: 0;
@@ -417,7 +510,7 @@ i {
 }
 .Date_card_img2:before {
   position: absolute;
-  background: #0000008c;
+  background: linear-gradient(0deg, black, transparent);
   width: 100%;
   height: 100%;
   top: 0;
@@ -435,7 +528,7 @@ i {
 }
 .Date_card_img3:before {
   position: absolute;
-  background: #0000008c;
+  background: linear-gradient(0deg, black, transparent);
   width: 100%;
   height: 100%;
   top: 0;
@@ -443,4 +536,75 @@ i {
   bottom: 0;
   content: " ";
 }
+.Date_card_contant {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  height: 100%;
+}
+.date_div {
+  background-color: hsl(180deg 1.54% 87.25%);
+  color: #000;
+  height: 2em;
+  padding: 0.2em;
+}
+
+.date_card_footer span {
+  color: #007bff;
+}
+.date_card_footer {
+  padding: 0em 1em 0em 1em;
+  font-weight: 550;
+}
 /* Date crad section */
+
+/* footer section */
+.footer {
+  background-color: hsl(235.86deg 59.18% 9.61%);
+  color: hsl(186deg 18.52% 89.41%);
+  padding: 2em 0;
+}
+.footer_social_container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: start;
+}
+.footer_div1_social_icon {
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.footer_div2_images {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4em;
+}
+.footer_div4_address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8em;
+}
+.footer_instagram_img {
+  object-fit: contain;
+  width: 4em;
+}
+/* footer section */
+
+/* end footer section */
+.end_footer {
+  background-color: hsl(236.42deg 61.47% 21.37%);
+  color: hsl(342.86deg 4.96% 72.35%);
+  padding: 1em 0;
+  font-weight: 550;
+}
+/* end footer section */
+/* box-shadow: 0 2px 12px rgb(0 0 0); || box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); margin: ]; padding: 2em; position: relative; bottom: 59px; background: #fff; z-index: 9; || max-width: 19%; margin-bottom: 16px; */

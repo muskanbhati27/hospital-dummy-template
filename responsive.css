@@ -23,8 +23,16 @@
   }
   /* navbar section */
   /* home section */
+
+  .home_slider_img {
+    height: 24em;
+  }
+  .home_div1 {
+    padding-left: 0;
+  }
   .home_div2 {
-    margin: 2em 0;
+    padding-left: 1em;
+    margin-top: 5em;
   }
   /* home section */
   /* Appointment  section */
@@ -33,8 +41,8 @@
     height: 23em;
   }
   .card_3 {
-    padding: 2em;
-    margin-top: 2em;
+    padding: 1.6em;
+    margin-top: 0em;
   }
   /* Appointment  section */
   /* Step1 section */
@@ -56,6 +64,26 @@
     border-radius: 100%;
   }
   /* Step2 section */
+  /* Step3 section */
+  .step3_img {
+    object-fit: cover;
+    height: 18em;
+    width: 18em;
+    border-radius: 100%;
+  }
+
+  /* Step3 section */
+  /* Step4 section */
+  .step4_row {
+    padding: 1em 0;
+  }
+  .step4_img {
+    object-fit: cover;
+    height: 18em;
+    width: 18em;
+    border-radius: 100%;
+  }
+  /* Step4 section */
   /* Images Cards section */
 
   .Images_icon {
@@ -66,14 +94,29 @@
   }
 
   /* Images Cards section */
-    /* Small cards section */
+  /* Small cards section */
 
-    .small_card {
-      margin-top: 1em;
-    }
-  
-    /* Small cards section */
+  .small_card {
+    margin-top: 1em;
+  }
+
+  /* Small cards section */
+
+  /* date card section */
+  .Date_card_img3 {
+    margin-top: 1em;
+  }
+  /* date card section */
+  /* footer section */
+  .footer {
+    padding: 1em 0;
+  }
+  .footer_div {
+    margin-top: 1.2em;
+  }
+  /* footer section */
 }
+
 @media (max-width: 767px) {
   /* Zero header section */
   .zeroheader_div_item p {
@@ -89,11 +132,15 @@
   /* Zero header section */
   /* home section */
   .home_slider_img {
-    height: 18em;
+    height: 24em;
   }
 
-  .home_div2_nav {
-    margin: 0em -0.6em;
+  .home_div2 {
+    margin-bottom: 1em;
+  }
+
+  .home_div1 {
+    width: 25em;
   }
 
   .home_div2_a :hover {
@@ -112,7 +159,7 @@
   /* home section */
   /* Appointment  section */
   .Appointment_card {
-    width: 24em;
+    width: 23.4em;
     height: 23em;
   }
   .Appointment_container {
@@ -177,6 +224,40 @@
     margin-top: 1em;
   }
   /* Step2 section */
+  /* Step3 section */
+
+  .step3_img {
+    height: 18em;
+    width: 18em;
+  }
+  .step3_div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    text-align: center;
+  }
+  /* Step3 section */
+  /* Step4 section */
+
+  .step4_div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+  }
+
+  .step4_div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+  /* Step4 section */
   /* Images Cards section */
   .Images_cards {
     text-align: center;
@@ -201,4 +282,30 @@
   }
 
   /* Small cards section */
+
+  /* date card section */
+  .Date_card_img1 {
+    width: 24em;
+  }
+
+  .Date_card_img2 {
+    width: 24em;
+
+    margin-top: 1em;
+  }
+
+  .Date_card_img3 {
+    width: 24em;
+    margin-top: 1em;
+  }
+
+  /* date card section */
+  /* footer section */
+  .footer {
+    padding: 1em 0;
+  }
+  .footer_div {
+    margin-top: 1.2em;
+  }
+  /* footer section */
 }
