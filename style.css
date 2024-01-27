@@ -92,9 +92,16 @@ i {
 /* navbar section */
 
 /* home section */
-
-.owl-nav button.owl-prev {
-  left: 0.2em;
+div#carousel .item {
+  position: relative;
+}
+div#carousel .item:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #00000047 !important;
+  z-index: 1;
 }
 .owl-nav button.owl-next {
   right: 0.2em;

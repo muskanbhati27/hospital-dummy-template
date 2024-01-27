@@ -37,12 +37,18 @@
   /* home section */
   /* Appointment  section */
   .Appointment_card {
-    width: 23em;
-    height: 23em;
+    width: 100%;
+    height: 100%;
   }
   .card_3 {
+    margin-top: 2em;
+  }
+  .card_2 {
+    margin-top: 2em;
+  }
+  .card_1 {
     padding: 1.6em;
-    margin-top: 0em;
+    margin-top: 2em;
   }
   /* Appointment  section */
   /* Step1 section */
@@ -96,17 +102,34 @@
   /* Images Cards section */
   /* Small cards section */
 
-  .small_card {
+  .heart_div {
+    width: 26%;
     margin-top: 1em;
+  }
+  .Heart_container {
+    max-width: 100%;
   }
 
   /* Small cards section */
 
-  /* date card section */
-  .Date_card_img3 {
+  /* Date crad section */
+
+  .Date_card_img1 {
+    width: 18em;
     margin-top: 1em;
   }
-  /* date card section */
+
+  .Date_card_img2 {
+    width: 18em;
+    margin-top: 1em;
+  }
+
+  .Date_card_img3 {
+    width: 18em;
+    margin-top: 1em;
+  }
+
+  /* Date crad section */
   /* footer section */
   .footer {
     padding: 1em 0;
@@ -277,29 +300,33 @@
   /* Images Cards section */
   /* Small cards section */
 
-  .small_card {
-    margin-top: 1em;
+  .heart_div {
+    width: 42%;
+  }
+  .Heart_container {
+    max-width: 106%;
   }
 
   /* Small cards section */
 
-  /* date card section */
+  /* Date crad section */
+
   .Date_card_img1 {
+    margin-top: 1em;
     width: 24em;
   }
 
   .Date_card_img2 {
-    width: 24em;
-
     margin-top: 1em;
+    width: 24em;
   }
 
   .Date_card_img3 {
-    width: 24em;
     margin-top: 1em;
+    width: 24em;
   }
 
-  /* date card section */
+  /* Date crad section */
   /* footer section */
   .footer {
     padding: 1em 0;
@@ -308,4 +335,34 @@
     margin-top: 1.2em;
   }
   /* footer section */
+}
+@media (max-width: 375px) {
+  .home_slider_img {
+    height: 16em;
+  }
+  .home_div1 {
+    width: 23em;
+  }
+  .Appointment_card {
+    width: 21.4em;
+    height: 22em;
+  }
+  /* Date crad section */
+
+  .Date_card_img1 {
+    margin-top: 1em;
+    width: 22em;
+  }
+
+  .Date_card_img2 {
+    margin-top: 1em;
+    width: 22em;
+  }
+
+  .Date_card_img3 {
+    margin-top: 1em;
+    width: 22em;
+  }
+
+  /* Date crad section */
 }
